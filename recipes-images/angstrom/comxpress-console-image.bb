@@ -42,9 +42,9 @@ EXPORT_FUNCTIONS rootfs_update_timestamp
 #	comxpress-x11vnc-init \
 #	comxpress-xfce-default-config \
 #	comxpress-xfce-init \
-
+#
 # ERROR: Nothing RPROVIDES error message on these packages
 #	iperf \
-
+#
 # carry-over from Chameleon96	
 #	comxpress-fpga-leds \
