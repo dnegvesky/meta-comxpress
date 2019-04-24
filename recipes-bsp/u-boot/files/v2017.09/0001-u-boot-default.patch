@@ -1,3 +1,20 @@
+From a8b1338b9c9bbee884f206b2dd7d33faf470fd9e Mon Sep 17 00:00:00 2001
+From: Dan Negvesky <dnegvesky@reflexces.com>
+Date: Wed, 24 Apr 2019 13:48:02 -0700
+Subject: [PATCH 1/1] u-boot-default
+
+Signed-off-by: Dan Negvesky <dnegvesky@reflexces.com>
+---
+ .config                                   | 1071 +++++++++++++++++++++++++++++
+ arch/arm/dts/socfpga_stratix10_socdk.dts  |    4 +-
+ arch/arm/mach-socfpga/misc_s10.c          |   80 +++
+ arch/arm/mach-socfpga/spl_s10.c           |   18 +-
+ include/configs/socfpga_stratix10_socdk.h |   41 +-
+ uboot.ds                                  |   80 +++
+ 6 files changed, 1279 insertions(+), 15 deletions(-)
+ create mode 100644 .config
+ create mode 100644 uboot.ds
+
 diff --git a/.config b/.config
 new file mode 100644
 index 0000000..b322a42
@@ -1424,4 +1441,6 @@ index 0000000..13c35a5
 +#b initr_net
 +#break -p "/local/fast/git/u-boot-socfpga/net/eth-uclass.c":386
 +continue
+-- 
+2.7.4
 

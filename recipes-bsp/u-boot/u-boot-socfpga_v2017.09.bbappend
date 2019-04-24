@@ -10,5 +10,5 @@ SRCREV_FORMAT = "comxpress"
 SRCREV_comxpress = "${AUTOREV}"
 
 SRC_URI_append = "\
-	file://u-boot-default.patch \
+	file://0001-u-boot-default.patch \
 	"
