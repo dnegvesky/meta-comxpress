@@ -4,6 +4,7 @@ SRCREV = "3e561b1fffb37f5c5a33b8b5b2d1d84ebb252e01"
 
 include linux-altera.inc
 
+LICENSE="GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=bbea815ee2795b2f4230826c0c6b8814"
 
 KERNEL_DEVICETREE_arria10_append ?= " socfpga_arria10_socdk_nand.dtb"
